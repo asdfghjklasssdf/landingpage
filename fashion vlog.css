@@ -1,0 +1,436 @@
+.banner
+{
+    background-image: url('fashion vlog.jpg');
+    background-color:white ;
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% 100%;
+     background-attachment: fixed;
+   color:#E6e8fa;
+}
+.banner .logo
+{
+    float: left;
+    width: 25%;
+}
+ .larger-symbol {
+         font-size: 40px;
+         color:white;
+        }
+.header{
+    background-color: #000000; 
+     padding: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1500;
+}
+
+.banner .menu
+{
+    float: right;
+    width: 75%;
+}
+.banner h1{
+   color:4F3166;
+   text-align:center;
+   font-size:50px;
+   font-weight: bold;
+   font-family: "Times New Roman", Times, serif;
+}
+.banner p{
+   color:4F3166;
+   text-align:center;
+   font-size:35px; 
+   font-family: "Times New Roman", Times, serif;
+}
+.menu ul
+{
+    text-align: right;
+    position : fixed;
+    color: #E6e8fa;
+}
+.menu ul li 
+{
+    list-style-type: none;
+    display:inline;
+    margin-right:10px;
+    font-size: 22px;
+    color: #E6e8fa;
+}
+.menu ul li a 
+{
+    text-decoration: none;
+    color: #E6e8fa;
+}
+.menu ul li a:hover
+{
+    color:red;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 120px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    padding-top: 150px;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+.project{
+    height:300px;
+    width:150px
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+
+.project {
+    width: calc(33.33% - 10px); 
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project {
+    width: calc(50% - 10px); 
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.project {
+    width: calc(50% - 10px); 
+    height: 300px;
+    box-sizing: border-box;
+}
+
+.project img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.footer1 {
+    background-color: black;
+    color: white;
+     
+}
+/* Footer Content Container */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+/* Footer Columns */
+.footer-column1 {
+    width: 20%; 
+    text-align: left;
+}
+.footer-column2 {
+    width: 20%; 
+    text-align: right;
+}
+.footer-column1 h1 {
+    font-size: 24px;
+text-align: left;
+}
+
+.footer-column1 ul {
+    font-size: 18px;
+    line-height: 1.5;
+text-align:left;
+list-style-type: none;
+text-decoration: none;
+}
+.footer-column h1 {
+    font-size: 24px;
+text-align: left;
+   list-style:none;
+}
+.footer-column h2 {
+    font-size: 18px;
+    line-height: 1.5;
+text-align:right;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.footer2 {
+    background-color:black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/
+.text-and-photo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:white;
+    text-align: center;
+    color: black;
+    background-image: url('dv.png');
+    background-color:black ;
+    height:100px;
+    width:100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 20px;
+text-align: center;
+    /* Remove the following line to override the color from the parent container */
+    /* color: white; */
+}
+
+.text h1 {
+    font-size: 30px;
+    font-weight: bold;
+ text-align: center;
+}
+
+.text p {
+    font-size: 18px;
+    margin: 0;
+    /* text-align: center; */ /* You can remove or adjust the text alignment as needed */
+}
+
+/* Style for the service section */
+.text-and-photo-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+.text-and-photo-contain .service {
+    flex: 1;
+    padding: 0px;
+    text-align: center;
+    color: white;
+} 
+
+.text-and-photo-contain .service img {
+    max-width: 300PX;
+    height: 300PX;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-and-photo-contain .service h2 {
+    font-size: 24px;
+    margin-top:10px;
+   text-align: left;
+}
+
+.text-and-photo-contain .service p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.text-and-photo-contain .service button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.text-and-photo-contain .service button:hover {
+    background-color: darkred;
+}
+
+/* Base styles for larger screens (desktop) */
+
+/* Your existing CSS code for larger screens goes here */
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+.banner {
+        height: 400px;
+    }
+
+    .banner .logo {
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .banner h1 {
+        font-size: 30px;
+        color:white;
+    }
+
+    .banner p {
+        font-size: 18px;
+        color:white;
+    }
+
+    .menu ul {
+        text-align: center;
+        padding: 0;    }
+
+    .menu ul li {
+        display: inline-block;
+        margin-right: 5px; 
+    }
+
+    .menu ul li:last-child {
+        margin-right: 0;
+    }
+
+    .menu ul li a {
+        text-decoration: none;
+        color: white;
+        display: block; 
+        padding: 0x 10px; 
+    }
+
+.header{
+    background-color: #000000; 
+     padding: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 1500;
+}
+
+    .modal-content {
+        max-width: 90%;
+        max-height: 90%;
+    }
+
+    .text-and-photo-contain .service {
+        flex-direction: column;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .text-and-photo-contain .service img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .text-and-photo-contain .service h2 {
+        font-size: 24px;
+    }
+
+    .text-and-photo-contain .service p {
+        font-size: 18px;
+    }
+
+    .text-and-photo-contain .service button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .footer-content {
+ ⁯       flex-direction: column;
+    }
+
+    .footer-column1,
+    .footer-column2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-column1 ul {
+        text-align: center;
+        padding-left: 0;
+    }
+   .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 190px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+    margin: auto;
+    display: block;
+}
+
+.close {
+    position: absolute;
+    padding-top: 180px;
+    top: 15px;
+    right: 35px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+}
